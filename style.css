@@ -1,0 +1,11 @@
+
+div{
+    background-image: url('image.png');
+    border:3px solid red;
+    background-repeat: no-repeat;
+    background-size: 1505px 1055px ;
+    height: 100vw;
+    width: 100vw;
+    filter: blur(0px);
+    filter: contrast(1234);
+}

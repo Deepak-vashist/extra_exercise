@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{ 
+            background-color: brown;
+            font-size: 75px;
+            text-align: center;
+            color: aliceblue;
+            display: none;
+            width:100vw;
+            height: 100vh;
+          
+
+
+        }
+        @media (max-width:360px){
+            #box1{
+                display: block;
+                background-color: rgb(250, 117, 8);
+                font-size: 35px;
+            }
+
+        }
+        @media (min-width:360px) and (max-width:500px)
+        {
+            #box2{
+                display: block;
+                background-color: rgb(97, 160, 95);
+                font-size: 65px;
+            }
+        }
+        @media (min-width:500px) and (max-width:990px)
+        {
+            #box3{
+                
+                display: block;background-color: rgb(224, 204, 18);
+                background-color: blueviolet;
+                font-size:100px ;
+            }
+        }
+        @media (min-width:990px) and (max-width:1920px)
+        {
+            #box4{
+                display: block;
+                background-color: rgb(11, 85, 223);
+                font-size: 135px;
+
+            }
+        }
+        @media (min-width:1920px) and (max-width:2222px)
+        {
+            #box5{
+                 display:block;
+                background-color: rgb(238, 31, 16);
+                font-size: 160px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="box" id="box1">
+        This is small mobile screen.
+         
+    </div>
+    <div class="box" id="box2">
+         This is a Mobile screen.
+    </div>
+    <div class="box" id="box3">
+         This is a Tablet screen.
+    </div>
+    <div class="box" id="box4">
+         This is laptop screen.
+    </div>
+    <div class="box" id="box5">
+         This is a Desktop screen. 
+    </div>
+</body>
+</html>

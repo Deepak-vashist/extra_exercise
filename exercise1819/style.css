@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(191, 209, 24);
+
+}
+ .container{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+ }
+
+.box{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; 
+    color: rgb(26, 24, 24);
+    position: absolute;
+    top:100px;
+    left:100px;
+    transition: all 0.4s ease-in-out; 
+    box-shadow: 150px 240px  0  0  currentColor,300px 240px 0 0  currentColor;
+    
+} 
+.box::before{
+     box-sizing: content-box; 
+    content:"";
+    position: absolute;
+    top:120px;
+    left:30px;
+    width: 210px;
+    height: 120px;
+     border-bottom: 180px solid currentColor; 
+    border-radius: 0% 0% 0% 100%;
+    transform: rotate(-40deg);
+     transform-origin: right 210px;
+    animation-name: left;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite; 
+
+ } 
+@keyframes left {
+    0%{
+        transform: rotate(-50deg) ;
+    }
+     50%{
+        transform: rotate(-40deg) ;
+    }   
+    100%{
+        transform: rotate(-50deg) ;
+    }
+} 
+.box::after{
+box-sizing: content-box;
+content: "";
+position: absolute;
+top:120px;
+left:390px;
+width:210px;
+height: 120px;
+border-bottom: 180px solid currentColor;
+border-radius: 0 0 100% 0 ;
+transform: rotate(40deg);
+transform-origin: left 210px;
+transition: all 0 0.4s ease-in-out;
+transition-delay: 1s;
+animation-name: right;
+animation-duration: 0.8s;
+animation-iteration-count: infinite;
+}
+@keyframes right{
+    0%{
+        transform:rotate(50deg) ;
+    }
+    50%{
+        transform:rotate(40deg) ;
+    }
+    100%{
+        transform:rotate(50deg) ;
+    }
+} 

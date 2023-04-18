@@ -1,0 +1,17 @@
+.box{
+    --box-shadow: 3px 3px red;
+    --box-background-color: blue;
+   --box-margin:3px 9px;
+   --box-height:240px;
+   --box-width:240px;
+   --box-color:white;
+   --box-border-radius:13px;
+   --box-border:3px solid rgb(194, 28, 28);
+}
+#box2 :last-child{
+    --box-font-size:12px;
+
+}
+div ::first-letter{
+    --font-size:30px;
+}

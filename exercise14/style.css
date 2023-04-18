@@ -1,0 +1,56 @@
+/* p#lock , #lock2{
+    font-size: 65px;
+}
+div.container p:first-child {
+    color: red;
+}
+div.container p:last-of-type{
+    color:brown
+}
+p:first-child{
+    color:blueviolet;
+}
+.box1  :nth-child(4){
+     font-size: 21px;
+     border: 3px solid blue;
+     
+
+} */
+.box{
+    box-shadow:var(--box-shadow);
+    height:var(--box-height);
+    width:var(--box-width);
+    background-color:var(--box-background-color);
+    border:var(--box-border);
+    border-radius:var(--box-border-radius);
+    margin: var(--box-margin);
+    color:var(--box-color);
+}
+.container{
+    display :flex;
+}
+#box1:hover::after{
+    content:"Hello";
+    background:green; 
+
+}
+#box1 :last-child{
+    color:red;
+ 
+}
+div :first-letter{
+    font-size:var(--font-size);
+    color: red;
+}
+#box2 :first-child{
+    color:green;
+}
+#box2 :last-child{
+    font-size:var(--box-font-size);
+}
+#box3 :first-child{
+    color:brown;
+}
+h2{
+    text-align: center;
+}

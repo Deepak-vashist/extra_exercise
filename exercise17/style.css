@@ -1,0 +1,116 @@
+body{
+ 
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:gray ;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+h1{
+    padding:30px 0 0 20px ;
+}
+.container{
+    border:1px solid black;
+    width: 1000px;
+    background-color: aliceblue;
+    margin: 0 auto; 
+    background-repeat: no-repeat;
+    background-size:1000px 1000px;
+    background-image: url('space.png');
+    color: rgb(137, 177, 211);
+    min-height: 500px;
+    filter:brightness(95%);       
+}
+#header{
+    background-color: rgb(206, 81, 31);
+    height: 92px;
+    color:white;
+    margin: 0px;
+    padding:0px;
+
+}
+#menu{
+    background-color: lightsalmon;
+}
+#menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu li{
+    background-color: rgb(231, 142, 25);
+    display: inline-block;
+}
+#menu li a{
+    color:black;
+    display:block;
+    padding:10px  13px;
+    text-decoration: none;
+    color:black;
+}
+#menu .ul1 .a:hover::after { 
+    background-color: rgb(206, 81, 31);
+    color: rgb(243, 240, 240);
+}
+#sider{
+    background-color: lightblue;
+    width: 200px;
+    min-height: 500px;
+    float:right; }
+#sider li a {   
+    text-decoration: none;
+    color:black;
+
+}
+#footer{
+    padding: 5px 10px ;
+    background-color: blanchedalmond;
+    text-align: right;
+    clear: both;
+}
+#content{
+    width:800px;
+    height: 500px;
+    float:left;
+    padding:10px 10px;
+    box-sizing: border-box;
+    overflow:auto;
+}
+.mar{
+    background-color: rgb(255, 0, 85);
+    display: inline-block;
+    color: greenyellow;
+}
+
+
+.mar2{
+    background-color: rgb(247, 15, 84);
+    display: inline-block;
+    color:greenyellow;
+}
+/* .Date .Day .year {
+    display:none;
+    width:200px;
+    position:absolute;
+} */
+.mar:hover::after{
+    content:"Hello friend ";
+    background:rgb(125, 161, 125);
+    height:100px;
+    width: 50; 
+}
+.button{
+    margin-left:400px ;
+    color: black;
+    background-color: azure;
+    border-radius:5px ;
+
+}
+.btn2{
+    margin-left: 100px;
+    border-radius: 5px;
+    color: black;
+    background-color: azure;
+}
+

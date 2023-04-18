@@ -1,0 +1,14 @@
+#button {
+  width: 222px;
+  height: 52px;
+  margin: 152px;
+  padding: 13px;
+  background-color: rgb(29, 92, 228);
+  text-align: center;
+}
+#button .btn2 {
+  color: rgb(4, 40, 49);
+}
+#button b {
+  color: rgb(255, 158, 47);
+}/*# sourceMappingURL=main.css.map */
